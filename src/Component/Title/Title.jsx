@@ -1,11 +1,11 @@
 import React from "react";
 import "./Title.css";
 
-const Title = () => {
+const Title = ({ subtitle, title }) => {
     return (
         <div className="title container">
-            <p>Our Programs</p>
-            <h2>What we Offer</h2>
+            <p>{subtitle}</p>
+            <h2>{title}</h2>
         </div>
     );
 };
