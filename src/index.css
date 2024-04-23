@@ -30,6 +30,11 @@ a {
     justify-content: center;
     align-items: center;
 }
+
+.btn.dark-btn {
+    background-color: #212e;
+    color: #fff;
+}
 .btn img {
     width: 20px;
     margin-left: 10px;
