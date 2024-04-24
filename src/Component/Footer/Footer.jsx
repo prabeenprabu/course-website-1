@@ -1,9 +1,17 @@
-import React from 'react'
-import './Footer.css'
+import React from "react";
+import "./Footer.css";
 const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
+    const currentYear = new Date().getFullYear();
 
-export default Footer
+    return (
+        <div className="footer">
+            <p>&copy; {currentYear} Prabeen. All Rights Reserved</p>
+            <ul>
+                <li>Terms and Conditions</li>
+                <li>Privacy Policy</li>
+            </ul>
+        </div>
+    );
+};
+
+export default Footer;
