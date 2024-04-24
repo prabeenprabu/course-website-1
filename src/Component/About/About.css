@@ -43,3 +43,17 @@
     margin: 10px 0;
     line-height: 1.5;
 }
+
+/* --media fire-- */
+@media (max-width: 850px) {
+    .about {
+        flex-direction: column;
+    }
+    .about-left {
+        flex-basis: 100%;
+        order: 2;
+    }
+    .about-right {
+        flex-basis: 100%;
+    }
+}
