@@ -11,7 +11,7 @@ import Footer from "./Component/Footer/Footer";
 
 const App = () => {
     return (
-        <div>
+        <>
             <Navbar />
             <Hero />
             <Title subtitle="our programs" title="What we offer" />
@@ -23,8 +23,8 @@ const App = () => {
             <Testimonials />
             <Title subtitle="contact us" title="Get in touch" />
             <Contact />
-            <Footer/>
-        </div>
+            <Footer />
+        </>
     );
 };
 
